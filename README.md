@@ -2,6 +2,22 @@
 Source code for extracting, transforming and loading the data from the provided CSV file into a Data Warehouse (BigQuery), for it's analysis and use in a reporting tool (Data Studio). <br/> <br/> 
 This project makes use of Apache Beam and Cloud Dataflow for transforming and loading the data in an efficient way into BigQuery (Data Warehouse).<br/><br/> 
 The final DataStudio report that uses the information from the Data Warehouse can be found at: https://datastudio.google.com/open/1Xbo0wXbT1DK2wldrra-ZPwH01XijRsiw
+This report solves the following questions:<br/> <br/> 
+**Sales:**
+1. How many invoices are being generated in a daily basis and what is their average revenue?
+2. What is the total revenue by day and average revenue between all days?
+3. How many units were ordered in total and in a daily basis?
+4. How many unique customers ordered in total and in a daily basis?
+
+**Products:**
+1. What are the products with more units sold and that generate the most amount of revenue?
+2. What are the products with less units sold and that generate the least amount of revenue?
+3. What is the total of units sold?
+4. What is the total amount of revenue generated?
+
+**Markets:**
+1. What countries generate the most amount of revenue?
+2. What countries generate the least amount of revenue?
 
 ## Getting Started
 
